@@ -1,0 +1,16 @@
+{
+    "mainCategories": [
+        {
+            "title": "SALES",
+            "image": "random/path/img.png"
+        },
+        {
+            "title": "SERVICES",
+            "image": "random/path/img.png"
+        },
+        {
+            "title": "SPARES",
+            "image": "random/path/img.png"
+        }
+    ]
+}
