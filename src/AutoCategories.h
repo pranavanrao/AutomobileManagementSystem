@@ -18,6 +18,8 @@ public:
     QList<QPair<QString, QString> > mainCategories() const;
     void setMainCategories(const QList<QPair<QString, QString> > &newMainCategories);
 
+    Q_INVOKABLE QVariantList parseMainCategories() const;
+
 signals:
     void mainCategoriesChanged();
 

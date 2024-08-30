@@ -1,5 +1,7 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>ui/MainCategoryRow.qml</file>
+        <file>ui/MainCategoryRect.qml</file>
     </qresource>
 </RCC>

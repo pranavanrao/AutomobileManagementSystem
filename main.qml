@@ -1,9 +1,14 @@
 import QtQuick 2.12
 import QtQuick.Window 2.12
 
+import "./ui"
+
 Window {
-    width: 640
-    height: 480
+    width: screen.width
+    height: screen.height
     visible: true
     title: qsTr("Hello World")
+    color: "#f39c12"
+
+    MainCategoryRow {}
 }

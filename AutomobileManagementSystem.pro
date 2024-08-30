@@ -9,6 +9,7 @@ SOURCES += \
         src/AutoCategories.cpp
 
 RESOURCES += qml.qrc \
+    assets.qrc \
     data.qrc
 
 # Additional import path used to resolve QML modules in Qt Creator's code model

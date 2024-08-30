@@ -10,6 +10,8 @@ int main(int argc, char *argv[])
 #endif
     QGuiApplication app(argc, argv);
 
+    qmlRegisterType<AutoCategories>("MainCategories", 1, 0, "AutoCategoriesData");
+
     AutoCategories autoCategories;
 
     autoCategories.printMainCategories();

@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/ktm-spares.png</file>
+        <file>assets/ktm-bike.png</file>
+        <file>assets/ktm-service.jpg</file>
+    </qresource>
+</RCC>

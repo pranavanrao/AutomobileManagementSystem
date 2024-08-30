@@ -56,3 +56,15 @@ void AutoCategories::setMainCategories(const QList<QPair<QString, QString> > &ne
     m_mainCategories = newMainCategories;
     emit mainCategoriesChanged();
 }
+
+QVariantList AutoCategories::parseMainCategories() const
+{
+    QVariantList list;
+    for(const QPair<QString, QString> &category : m_mainCategories) {
+        QVariantMap map;
+        map["title"] = category.first;
+        map["image"] = category.second;
+        list.append(map);
+    }
+    return list;
+}

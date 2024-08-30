@@ -2,15 +2,15 @@
     "mainCategories": [
         {
             "title": "SALES",
-            "image": "random/path/img.png"
+            "image": "qrc:/assets/ktm-bike.png"
         },
         {
             "title": "SERVICES",
-            "image": "random/path/img.png"
+            "image": "qrc:/assets/ktm-service.jpg"
         },
         {
             "title": "SPARES",
-            "image": "random/path/img.png"
+            "image": "qrc:/assets/ktm-spares.png"
         }
     ]
 }
